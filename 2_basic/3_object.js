@@ -1,6 +1,6 @@
 
 
-const mySym = Symbol("key1")
+const mySym = Symbol("key1") // symbol 
 
 //object literals
 const JsUser = {
@@ -17,7 +17,7 @@ const JsUser = {
 console.log(JsUser.email);
 console.log(JsUser["email"]);
 console.log(JsUser["full name"])
-console.log(JsUser[mySym]); // 
+console.log(JsUser[mySym]); // access through square bracket
 
 //frezing
 JsUser.email = "faisal@chatgpt.com"
