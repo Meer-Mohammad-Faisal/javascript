@@ -23,8 +23,4 @@
         results.innerHTML = `<span>${bmi}</span>`
       }
 
-
-
-
-
 });
