@@ -25,7 +25,7 @@ if (Object.keys(emptyObj).length === 0) {
 }
 
 //genral knowledge:
-console.log( false == 0);
+console.log( false == 0)
 console.log(false == "");
 console.log(0 == "");
 

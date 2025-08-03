@@ -12,9 +12,9 @@ function sayMyName(){
 //sayMyName();
 
 //adding two numbers
-// function addTwoNumbers(number1, number2){ // number1, number2 parameters
-//     console.log(number1 + number2);
-// }
+function addTwoNumbers(number1, number2){ // number1, number2 parameters
+    console.log(number1 + number2);
+}
 
 function addTwoNumbers(number1, number2){ // number1, number2 parameters
     // let result = number1 + number2;
@@ -71,7 +71,7 @@ function handleObject(anyobject){
     console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
 }
 
-handleObject(user);
+//handleObject(user);
 handleObject({
     username: "sam", 
     price: 89

@@ -11,7 +11,7 @@ for(let i = 0; i < 10; i++){
 //console.log(element); //cannot accesss
 
 
-for( let i = 1; i <= 10; i++){
+for( let i = 1; i <= 20; i++){
     console.log(`Outer loop value: ${i}`);
     for(let j = 1; j <= 10; j++){
         //console.log(`inner loop value ${j} and outer loop ${i}`)
@@ -35,7 +35,7 @@ for(let i = 1; i <= 20; i++){
         console.log(`Detected 5`);
         break;
     }
-    console.log(`Value of i is ${i}`);
+    console.log(`Value of i is ${i}`);    // 5 tk he print hoga 5 ke baad break hoga...
 }
 
 
@@ -44,5 +44,5 @@ for(let i = 1; i <= 20; i++){
         console.log(`Detected 5`);
         continue;
     }
-    console.log(`Value of i is ${i}`);
+    console.log(`Value of i is ${i}`);  // 5 ko chod ke sab print ho jaeaga. 1 baar ke leye maaf krdo
 }
