@@ -21,7 +21,7 @@ const map = new Map();
 map.set('IN', "India")
 map.set('USA', "United state of america")
 map.set('Fr', "France")
-
+map.set('IN', "India") // it return only single not contain duplicate....
 console.log(map);
 
 for (const [key, value] of map) {
@@ -35,10 +35,10 @@ const myObject = {
 
 }
 
-// object is not iterable through this method
-for(const [key,value] of myObject){
-    console.log(key, ":-", value);
-}
+// object is not iterable through this method: it give error
+// for(const [key,value] of myObject){
+//     console.log(key, ":-", value);
+// }
 
 
 

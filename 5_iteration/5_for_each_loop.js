@@ -11,11 +11,11 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 //     console.log(item);
 // })
 
-// // another method
-// function printMe (item){
-//     console.log(item);
-// }
-// coding.forEach(printMe);
+// another method
+function printMe (item){
+    console.log(item);
+}
+coding.forEach(printMe);
 
 
 
@@ -33,7 +33,7 @@ const mycoding = [
         languageFileName: "cpp",
     },
     {
-        languageName: "python",
+        languageName1: "python",
         languageFileName: "py",
     },
 ]
